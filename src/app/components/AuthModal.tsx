@@ -393,7 +393,7 @@ export default function AuthModal({ onClose }: Props) {
                           disabled={loading}
                           className="w-full py-1 text-sm text-blue-900/80 transition-colors hover:text-blue-900"
                         >
-                          Don't have an account? Sign Up
+                          Don&apos;t have an account? Sign Up
                         </button>
                       </div>
                     </motion.div>
