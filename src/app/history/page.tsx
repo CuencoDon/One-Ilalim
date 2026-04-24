@@ -341,7 +341,7 @@ export default function HistoryPage() {
       let chartCanvas = await html2canvas(chartElement as HTMLElement, {
         scale: 2,
         backgroundColor: "#ffffff",
-      });
+      } as any);
       if (colorMode === "grayscale") {
         chartCanvas = applyGrayscale(chartCanvas);
       }
